@@ -1,4 +1,5 @@
 import React from "react";
+import TodoList from "./TodoList";
 
 const TodoApp = () => {
   return (
@@ -9,6 +10,7 @@ const TodoApp = () => {
         <button className="shadow-md border-2 px-1 py-1 rounderd-lg bg-green-200">
           Add
         </button>
+        <TodoList />
       </form>
     </section>
   );
