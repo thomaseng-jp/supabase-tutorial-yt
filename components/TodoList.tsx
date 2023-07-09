@@ -1,4 +1,5 @@
 import React from "react";
+import { Todo } from "../utils/interface.ts";
 
 type Props = {
   todos: Todo;
