@@ -4,7 +4,7 @@ import { deleteTodo, getAllTodos } from "../utils/supabaseFunctions";
 
 type Props = {
   todos: Todo[];
-  setTodo: React.Dispatch<any>;
+  setTodos: React.Dispatch<any>;
 };
 
 const TodoList = (props: Props) => {
